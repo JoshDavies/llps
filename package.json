@@ -1,8 +1,8 @@
 {
-  "name": "theme-builder",
+  "name": "Linden_Leas_Pre_School",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://joshdavies.github.io/theme-builder",
+  "homepage": "https://joshdavies.github.io/llps",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
