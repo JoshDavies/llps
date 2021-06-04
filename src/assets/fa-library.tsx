@@ -5,16 +5,14 @@ import {
     faHome,
     faBars,
     faCheck,
+    faPhone,
 } from '@fortawesome/free-solid-svg-icons';
 
 import {
     faCircle as faCircleRegular,
     faSquare as faSquareRegular,
+    faEnvelope as faEnvelopeRegular,
 } from '@fortawesome/free-regular-svg-icons';
-
-import {
-    faGithub,
-} from '@fortawesome/free-brands-svg-icons';
 
 library.add(
     faUser,
@@ -22,6 +20,7 @@ library.add(
     faBars,
     faCircleRegular,
     faSquareRegular,
+    faEnvelopeRegular,
     faCheck,
-    faGithub,
+    faPhone,
 );
