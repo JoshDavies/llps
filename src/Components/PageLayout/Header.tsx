@@ -5,7 +5,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Header = () => {
   return (
     <header className='navBar' id ='navBar' role='banner'>
-      <h1>Linden Leas Pre School</h1>
+      <h1>
+        <div className='headingFirst'>Linden Leas</div>
+        <div className='headingSecond'>Pre School</div>
+      </h1>
       <Button 
         id={'toggleThemeButton'}
         type={'button'}

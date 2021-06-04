@@ -5,24 +5,26 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 400 ;
   font-style: normal;
-  font-size: 1rem;
+  font-size: 1.25rem;
   line-height: 1.5;
   color: $text;
   background-color: $background;
   .container {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     box-shadow: $container-shadow;
     border-radius: 0.25rem;
     background-color: $container;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3 {
     font-family: 'Comic Neue', cursive;
     font-weight: 400 ;
+    color: #2727ff;
   }
 
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
+    .headingSecond {color: #ff2727;}
   }
 
   h2 {
@@ -30,19 +32,7 @@
   }
 
   h3 {
-    font-size: 1.5rem;
-  }
-
-  h4 {
-    font-size: 1.25rem;
-  }
-
-  h5 {
-    font-size: 1.125rem;
-  }
-
-  h6 {
-    font-size: 1rem;
+    font-size: 1.75rem;
   }
 
   a {
@@ -95,11 +85,11 @@
   }
 
   .footer {
-    padding: 1rem;
+    padding: 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr) minmax(10rem, 2fr));
     text-align: left;
-    justify-items: center;
+    justify-items: left;
     align-items: center;
     svg { 
       margin-right: 1rem;
@@ -109,6 +99,9 @@
       :first-child {
         margin-top: 1rem;
       }
+    }
+    p {
+      padding-left: 1rem;
     }
   }
 
