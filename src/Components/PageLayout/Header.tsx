@@ -3,29 +3,16 @@ import Button from 'Components/Button/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Header = () => {
-
-  const toggleTheme = (): void => {
-    let currentTheme: string = document.documentElement.className;
-    document.documentElement.className = '';
-    if (currentTheme === 'theme-light') {
-      document.documentElement.classList.add(`theme-${'dark'}`);
-      localStorage.setItem('theme', 'dark');
-    } else {
-      document.documentElement.classList.add(`theme-${'light'}`);
-      localStorage.setItem('theme', 'light');
-    }
-  }
-
   return (
     <header className='navBar' id ='navBar' role='banner'>
-      <h1>Theme Builder</h1>
+      <h1>Linden Leas Pre School</h1>
       <Button 
         id={'toggleThemeButton'}
         type={'button'}
-        onClick={()=> {toggleTheme()}}
+        onClick={()=> null}
         children={
           <span>
-            Change Theme <FontAwesomeIcon icon={'sun'} /> <FontAwesomeIcon icon={'moon'} />
+            <FontAwesomeIcon icon={'bars'} /> Menu 
           </span>
         }
       />

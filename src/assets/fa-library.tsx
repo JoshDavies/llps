@@ -3,8 +3,7 @@ import {library} from '@fortawesome/fontawesome-svg-core';
 import {
     faUser,
     faHome,
-    faSun,
-    faMoon,
+    faBars,
     faCheck,
 } from '@fortawesome/free-solid-svg-icons';
 
@@ -20,8 +19,7 @@ import {
 library.add(
     faUser,
     faHome,
-    faSun,
-    faMoon,
+    faBars,
     faCircleRegular,
     faSquareRegular,
     faCheck,

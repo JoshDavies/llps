@@ -1,4 +1,4 @@
-@import 'src/themes/theme-builder';
+@import 'src/base';
 
 .styledButton {
 	min-width: 4rem;
@@ -25,33 +25,33 @@
 }
 
 .primaryButton {
-	@include theme-aware('border-color', 'button-primary-border');
-	@include theme-aware('background-color', 'button-primary-background');
-	@include theme-aware('color', 'button-primary-text');
+	border-color: $button-primary-border;
+	background-color: $button-primary-background;
+	color: $button-primary-text;
 	&:hover, &:focus {
-		@include theme-aware('color', 'button-primary-text-focus');
-		@include theme-aware('border-color', 'button-primary-border-focus');
-		@include theme-aware('background-color', 'button-primary-background-focus');
+		color: $button-primary-text-focus;
+		border-color: $button-primary-border-focus;
+		background-color: $button-primary-background-focus;
 	}
 	&:disabled {
-		@include theme-aware('color', 'button-disabled-text');
-		@include theme-aware('border-color', 'button-disabled-border');
-		@include theme-aware('background-color', 'button-disabled-background');
+		color: $button-disabled-text;
+		border-color: $button-disabled-border;
+		background-color: $button-disabled-background;
 	}
 }
 
 .secondaryButton {
-	@include theme-aware(border-color, 'button-secondary-border');
-	@include theme-aware(background-color, 'button-secondary-background');
-	@include theme-aware(color, 'button-secondary-text');
+	border-color: $button-secondary-border;
+	background-color: $button-secondary-background;
+	color: $button-secondary-text;
 	&:hover, &:focus {
-		@include theme-aware('color', 'button-secondary-text-focus');
-		@include theme-aware('border-color', 'button-secondary-border-focus');
-		@include theme-aware('background-color', 'button-secondary-background-focus');
+		color: $button-secondary-text-focus;
+		border-color: $button-secondary-border-focus;
+		background-color: $button-secondary-background-focus;
 	}
 	&:disabled {
-		@include theme-aware('color', 'button-disabled-text');
-		@include theme-aware('border-color', 'button-disabled-border');
-		@include theme-aware('background-color', 'button-disabled-background');
+		color: $button-disabled-text;
+		border-color: $button-disabled-border;
+		background-color: $button-disabled-background;
 	}
 }
